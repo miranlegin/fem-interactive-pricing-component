@@ -1,0 +1,32 @@
+@import 'reset';
+@import 'variables';
+@import 'utilities';
+@import 'components';
+
+body {
+  display: grid;
+  align-content: center;
+  font-family: var(--ff-base);
+  font-weight: var(--fw-regular);
+
+  background-color: var(--white);
+  color: var(--grayish-blue);
+
+  padding: 1.5rem;
+
+  @media (min-width: $tablet) {
+    background-color: var(--very-pale-blue);
+  }
+
+  &::before {
+    content: '';
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50vh;
+    background-color: #f1f5fe;
+    border-radius: 0 0 0 191px;
+  }
+}

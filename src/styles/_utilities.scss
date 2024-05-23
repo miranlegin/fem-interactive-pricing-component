@@ -1,0 +1,79 @@
+.fw-regular {
+  font-weight: var(--fw-regular);
+}
+
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.hide-mobile {
+  display: none;
+}
+
+@media (min-width: $tablet) {
+  .hide-mobile {
+    display: block;
+  }
+
+  .hide-tablet {
+    display: none;
+  }
+}
+
+@keyframes pulse {
+  // 0% {
+  //   transform: translateY(0);
+  // }
+
+  // 13% {
+  //   transform: translateY(-3px);
+  // }
+
+  // 37% {
+  //   transform: translateY(2.5px);
+  // }
+
+  // 63% {
+  //   transform: translateY(-1.5px);
+  // }
+
+  // 87% {
+  //   transform: translateY(1px);
+  // }
+
+  // 100% {
+  //   transform: translateY(0);
+  // }
+
+  25% {
+    transform: scale(1.15);
+  }
+}
+
+.animation__pulse {
+  animation: pulse 350ms ease-out;
+}

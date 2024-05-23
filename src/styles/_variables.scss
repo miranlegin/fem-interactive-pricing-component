@@ -1,0 +1,54 @@
+:root {
+  --container-max-width: 33.75rem;
+
+  // typography
+  // family
+  --ff-base: 'Manrope', sans-serif;
+
+  // weight
+  --fw-regular: 600;
+  --fw-bold: 800;
+
+  // size
+  --fs-400: 14px;
+
+  //   10  10
+  //   12  12|14
+  //   13  15
+  //   14  16
+  //   20  28
+  //   32  40
+
+  --fs-xs: 0.625rem;
+  --fs-sm: 0.75rem;
+  --fs-md: 0.8125rem;
+  --fs-lg: 0.875rem;
+  --fs-xl: 0.9375rem;
+  --fs-2xl: 1rem;
+  --fs-3xl: 1.25rem;
+  --fs-4xl: 1.75rem;
+  --fs-5xl: 2rem;
+  --fs-6xl: 2.5rem;
+
+  // colors
+
+  // primary
+
+  --soft-cyan: hsl(174, 77%, 80%);
+  --strong-cyan: hsl(174, 86%, 45%);
+  --light-grayish-red: hsl(14, 92%, 95%);
+  --light-red: hsl(15, 100%, 70%);
+  --pale-blue: hsl(226, 100%, 87%);
+
+  // neutral
+
+  --white: hsl(0, 0%, 100%);
+  --very-pale-blue: hsl(230, 100%, 99%);
+  --light-grayish-blue: hsl(224, 65%, 95%);
+  --light-grayish-blue2: hsl(223, 50%, 87%);
+  --grayish-blue: hsl(225, 20%, 60%);
+  --dark-desaturated-blue: hsl(227, 35%, 25%);
+}
+
+$tablet: 48em;
+$desktop: 62em;
